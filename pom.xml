@@ -98,8 +98,6 @@
 	    <version>${apache.taglib.version}</version>
 	</dependency>
 
-	
-	<!-- 
 	<dependency>
 	    <groupId>local.tools.lib</groupId>
 	    <artifactId>optional-lib</artifactId>
@@ -107,6 +105,7 @@
 	    <scope>system</scope>
 	    <systemPath>${project.basedir}/tools/lib/optional/optional-lib-5.13.3.jar</systemPath>
 	</dependency>
+	<!--
 	<dependency>
 	    <groupId>local.tools.lib</groupId>
 	    <artifactId>web-lib</artifactId>
@@ -169,20 +168,6 @@
 			                <version>1.0</version>
 			                <packaging>jar</packaging>
 			                <file>${project.basedir}/tools/lib/optional/optional-lib-5.13.3.jar</file>
-			            </configuration>
-			        </execution>
-			        <execution>
-			            <id>web-jar</id>
-			            <phase>install</phase>
-			            <goals>
-			                <goal>install-file</goal>
-			            </goals>
-			            <configuration>
-			                <groupId>local.tools.lib</groupId>
-			                <artifactId>web-lib</artifactId>
-			                <version>1.0</version>
-			                <packaging>jar</packaging>
-			                <file>${project.basedir}/tools/lib/web/web-lib-5.13.3.jar</file>
 			            </configuration>
 			        </execution>
 			    </executions>
